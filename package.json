@@ -1,7 +1,7 @@
 {
   "name": "nestjs-dockerized",
   "version": "0.0.1",
-  "description": "",
+  "description": "<p align=\"center\">   <a href=\"http://nestjs.com/\" target=\"blank\"><img src=\"https://nestjs.com/img/logo_text.svg\" width=\"320\" alt=\"Nest Logo\" /></a> </p>",
   "author": "",
   "private": true,
   "license": "UNLICENSED",
@@ -24,15 +24,14 @@
     "@nestjs/common": "^8.0.0",
     "@nestjs/config": "^1.0.1",
     "@nestjs/core": "^8.0.0",
-    "@nestjs/mongoose": "^8.0.0",
     "@nestjs/platform-express": "^8.0.0",
     "@nestjs/typeorm": "^8.0.1",
-    "mongodb": "^4.0.1",
-    "mongoose": "^5.13.3",
+    "dotenv": "^10.0.0",
     "pg": "^8.6.0",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
     "rxjs": "^7.2.0",
+    "socket.io": "^4.1.3",
     "typeorm": "^0.2.34"
   },
   "devDependencies": {
@@ -73,5 +72,17 @@
     ],
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
-  }
+  },
+  "main": ".eslintrc.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReillySam/API_NestJS_Docker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ReillySam/API_NestJS_Docker/issues"
+  },
+  "homepage": "https://github.com/ReillySam/API_NestJS_Docker#readme"
 }
