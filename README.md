@@ -25,8 +25,8 @@
 ## Description
 
 API design and implementation using Node JS  and Nestjs framework. Features of the API include standard CRUD operations. Postman was used to test the function of the application and DB queries, PostgreSQL (typeORM).
-
 I also used Docker containerisation for abstract and single application responsibility, API & DB. 
+
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
 ## Installation
